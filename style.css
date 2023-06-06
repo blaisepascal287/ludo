@@ -189,8 +189,8 @@
     height: 80px;
     position: absolute;
     border-radius: 10%;
-    left: 340px;
-    top: 110px;
+    left: 50px;
+    bottom: 20px;
     border: 5px solid tomato;
 }
 #dice_blue{
@@ -199,8 +199,8 @@
     position: absolute;
     border-radius: 10%;
     border: 5px solid rgb(164, 229, 255);
-    left: 340px;
-    top: 385px;
+    left: 50px;
+    bottom: 50px;
 }
 #dice_green{
     width: 80px;
@@ -208,8 +208,8 @@
     position: absolute;
     border-radius: 10%;
     border: 5px solid rgb(134, 255, 134);
-    right: 340px;
-    top: 110px;
+    right: 50px;
+    top: 250px;
 }
 @keyframes blink{
     from{
@@ -225,8 +225,8 @@
     position: absolute;
     border-radius: 10%;
     border: 5px solid rgb(255, 255, 73);
-    right: 340px;
-    top: 385px;
+    right: 50px;
+    top: 50px;
 }
 .dice_img{
     margin: 5px;
@@ -299,19 +299,10 @@
     background: rgb(134, 255, 134);
     border: 2px solid rgb(56, 241, 56);
 }
-/* #greenc1{
-    top: 126px;
-    left: 747px;
-}
-#greenc2{
-    top: 126px;
-    left: 822px;
-}
-#greenc3{
-    top: 200px;
-    left: 747px;
-}
-#greenc4{
-    top: 200px;
-    left: 822px;
-} */
+
+
+
+
+
+
+
