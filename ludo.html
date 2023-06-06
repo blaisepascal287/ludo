@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="heading">Ludo</h1>
+    <div id="container">
+        <div id="dice_red" class="user_in">
+            <img src="img/1.png" class="dice_img" id="red1">
+            <img src="img/2.png" class="dice_img" id="red2">
+            <img src="img/3.png" class="dice_img" id="red3">
+            <img src="img/4.png" class="dice_img" id="red4">
+            <img src="img/5.png" class="dice_img" id="red5">
+            <img src="img/6.png" class="dice_img" id="red6">
+        </div>
+        <div id="dice_blue" class="user_in">
+            <img src="img/1.png" class="dice_img" id="blue1">
+            <img src="img/2.png" class="dice_img" id="blue2">
+            <img src="img/3.png" class="dice_img" id="blue3">
+            <img src="img/4.png" class="dice_img" id="blue4">
+            <img src="img/5.png" class="dice_img" id="blue5">
+            <img src="img/6.png" class="dice_img" id="blue6">
+        </div>
+        <div id="board">
+            <div class="room" id="red">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div id="area-top">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box g"></div>
+                <div class="box g">*</div>
+                <div class="box">*</div>
+                <div class="box g"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box g"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box g"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box g"></div>
+                <div class="box"></div>
+            </div>
+            <div class="room" id="green">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div id="area-left">
+                <div class="box"></div>
+                <div class="box r">*</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box r"></div>
+                <div class="box r"></div>
+                <div class="box r"></div>
+                <div class="box r"></div>
+                <div class="box r"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box">*</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div id="center">
+                <div class="home" id="greenHome"></div>
+                <div class="home" id="redHome"></div>
+                <div class="home" id="yellowHome"></div>
+                <div class="home" id="blueHome"></div>
+            </div>
+            <div id="area-right">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box">*</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box y"></div>
+                <div class="box y"></div>
+                <div class="box y"></div>
+                <div class="box y"></div>
+                <div class="box y"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box y">*</div>
+                <div class="box"></div>
+            </div>
+            <div class="room" id="blue">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div id="area-bottom">
+                <div class="box"></div>
+                <div class="box s"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box s"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box s"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box s"></div>
+                <div class="box">*</div>
+                <div class="box s">*</div>
+                <div class="box s"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="room" id="yellow">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+        </div>
+        <div id="dice_green" class="user_in">
+            <img src="img/1.png" class="dice_img" id="green1">
+            <img src="img/2.png" class="dice_img" id="green2">
+            <img src="img/3.png" class="dice_img" id="green3">
+            <img src="img/4.png" class="dice_img" id="green4">
+            <img src="img/5.png" class="dice_img" id="green5">
+            <img src="img/6.png" class="dice_img" id="green6">
+        </div>
+        <div id="dice_yellow" class="user_in">
+            <img src="img/1.png" class="dice_img" id="yellow1">
+            <img src="img/2.png" class="dice_img" id="yellow2">
+            <img src="img/3.png" class="dice_img" id="yellow3">
+            <img src="img/4.png" class="dice_img" id="yellow4">
+            <img src="img/5.png" class="dice_img" id="yellow5">
+            <img src="img/6.png" class="dice_img" id="yellow6">
+        </div>
+        <div class="coin redcoin" id="redc1"></div>
+        <div class="coin redcoin" id="redc2"></div>
+        <div class="coin redcoin" id="redc3"></div>
+        <div class="coin redcoin" id="redc4"></div>
+        <div class="coin greencoin" id="greenc1"></div>
+        <div class="coin greencoin" id="greenc2"></div>
+        <div class="coin greencoin" id="greenc3"></div>
+        <div class="coin greencoin" id="greenc4"></div>
+        <div class="coin bluecoin" id="bluec1"></div>
+        <div class="coin bluecoin" id="bluec2"></div>
+        <div class="coin bluecoin" id="bluec3"></div>
+        <div class="coin bluecoin" id="bluec4"></div>
+        <div class="coin yellowcoin" id="yellowc1"></div>
+        <div class="coin yellowcoin" id="yellowc2"></div>
+        <div class="coin yellowcoin" id="yellowc3"></div>
+        <div class="coin yellowcoin" id="yellowc4"></div>
+    </div>
+</body>
+<script src="logic.js"></script>
+<script src="players.js"></script>
+</html>
