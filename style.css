@@ -190,7 +190,7 @@
     position: absolute;
     border-radius: 10%;
     left: 50px;
-    bottom: 20px;
+    bottom: 330px;
     border: 5px solid tomato;
 }
 #dice_blue{
@@ -209,7 +209,7 @@
     border-radius: 10%;
     border: 5px solid rgb(134, 255, 134);
     right: 50px;
-    top: 250px;
+    bottom: 330px;
 }
 @keyframes blink{
     from{
@@ -226,7 +226,7 @@
     border-radius: 10%;
     border: 5px solid rgb(255, 255, 73);
     right: 50px;
-    top: 50px;
+    bottom: 50px;
 }
 .dice_img{
     margin: 5px;
