@@ -246,7 +246,7 @@
     }
     #container{
         min-height: 700px;
-        min-width: 540px;
+        /* min-width: 540px; */
     }
 }
 .dice_img{
