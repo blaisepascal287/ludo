@@ -33,7 +33,3 @@ for(let i = 0; i < 17; i++){
     coin[i].style.left = `${hole[i].getBoundingClientRect().left + 6}px`;
     coin[i].style.top = `${hole[i].getBoundingClientRect().top + 6}px`;
 }
-document.querySelector("#dice_red").style.left = `${document.querySelector("#board").getBoundingClientRect().left}px`;
-document.querySelector("#dice_blue").style.left = `${document.querySelector("#board").getBoundingClientRect().left}px`;
-document.querySelector("#dice_yellow").style.right = `${document.querySelector("#board").getBoundingClientRect().left}px`;
-document.querySelector("#dice_green").style.right = `${document.querySelector("#board").getBoundingClientRect().left}px`;
