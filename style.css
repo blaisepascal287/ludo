@@ -234,15 +234,19 @@
     }
     #dice_red{
         top: 120px;
+        left: 50px;
     }
     #dice_blue{
         bottom:50px;
+        left: 50px;
     }
     #dice_green{
         top: 120px;
+        right: 50px;
     }
     #dice_yellow{
         bottom: 50px;
+        right: 50px;
     }
     #container{
         min-height: 700px;
